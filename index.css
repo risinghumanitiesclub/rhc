@@ -1,0 +1,151 @@
+.button1{
+    border-radius: 15px;
+    background-color: azure;
+    border:none;
+    font-size: medium;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding-left: 10px;
+    padding-right: 10px;
+    cursor: pointer;
+}
+.img1{
+    border-radius: 50px;
+}
+.img2{
+    border-radius: 1000px;
+}
+.li1{
+    color:rgba(50, 47, 212, 0.911);
+}
+.header1{
+    position: fixed;
+    width: 1350px;
+    background-color:#ffffff;
+    top:0px;
+    margin-top: 0px;
+    display: flex;
+}
+.table2{
+    border-radius: 30px;
+    outline-color:violet;
+    border-color:violet;
+    overflow: hidden;
+    background-color: rgb(158, 108, 204); 
+}
+.table1{
+    border-bottom-color:black;
+    border-right:hidden;
+    border-left:hidden;
+    border-top:hidden;
+    overflow: hidden;
+    width:99%;
+}
+.th1{
+    border:hidden;
+}
+.button3{
+    background-color: blue;
+    size: 50px;
+    border-radius: 10px;
+    padding:5px;
+    cursor: pointer;
+}
+.table4{
+    overflow:hidden;
+}
+.img3{
+    border-radius: 500px;
+}
+.button4{
+    background-color:antiquewhite;
+  border:none;
+  font-weight: 800;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.button5{
+    border-radius: 8px;
+    border-color: green;
+    font-size:150%;
+    background-color:rgb(112, 179, 179);
+    motion-rotation: auto;
+    cursor:pointer;
+    font-weight: 700;
+}
+*{
+    text-decoration: none;
+}
+.navbar{
+    background-color: rgb(255, 255, 255);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-right:15px;
+    padding-left:15px;
+    width: 100%;
+    box-shadow: 3px 3px 3px black;
+}
+
+.navbar {
+    background-color: white;
+    padding: 10px;
+}
+
+.navdiv {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 10px;
+    margin: 0;
+    padding: 0;
+}
+
+ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.button1 {
+    background-color: rgb(231, 241, 78);
+    border: none;
+    padding: 8px 15px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+/* Hamburger button hidden on desktop */
+.hamburger {
+    display: none;
+    font-size: 26px;
+    background: none;
+    border: none;
+    color: black;
+    cursor: pointer;
+}
+
+/* Mobile Responsive */
+@media (max-width: 768px) {
+    ul {
+        display: none;
+        flex-direction: column;
+        background:rgb(212, 101, 26);
+        position: absolute;
+        top: 100px;
+        right: 0;
+        width: 200px;
+        text-align: right;
+        border-radius: 8px;
+        padding: 10px;
+    }
+
+    ul.show {
+        display: flex;
+    }
+
+    .hamburger {
+        display: block;
+    }
+}
